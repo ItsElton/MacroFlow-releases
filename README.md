@@ -2,7 +2,9 @@
 
 MacroFlow automates your mouse and keyboard. You build a macro by dragging blocks onto a canvas and wiring them together, like Unreal Engine's Blueprint editor: clicks, key presses, loops, variables and on-screen image search, started and stopped with hotkeys.
 
-## [⬇ Download MacroFlow 1.0.0](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+![The MacroFlow editor](screenshot.png)
+
+## [⬇ Download MacroFlow 1.0.1](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-28.
 
@@ -14,7 +16,14 @@ The newest version, 109 MB zip, released 2026-09-28.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.0** (latest)](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.1** (latest)](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
+| [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.1
+
+Released 2026-09-28 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.1)
+
+- Show a preview of the editor on the download page (#8)
 
 ### MacroFlow 1.0.0
 
