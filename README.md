@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.5](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.6](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-28.
 
@@ -16,12 +16,23 @@ The newest version, 109 MB zip, released 2026-09-28.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.5** (latest)](#macroflow-105) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.5/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.6** (latest)](#macroflow-106) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.6/MacroFlow-windows.zip) (109 MB) |
+| [1.0.5](#macroflow-105) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.5/MacroFlow-windows.zip) (109 MB) |
 | [1.0.4](#macroflow-104) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.4/MacroFlow-windows.zip) (109 MB) |
 | [1.0.3](#macroflow-103) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.3/MacroFlow-windows.zip) (109 MB) |
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.6
+
+Released 2026-09-28 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.6/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.6)
+
+- **Notes in the Run Log.** When a block with a *Note* runs, its note is written to the Run Log (marked ✎), so you can follow along and see where a macro got to. A block in a fast loop logs its note at most once a second.
+- **See where the macro is.** While a macro runs with MacroFlow open, the block it is on glows and pulses green with a ▶ badge.
+- **See where it goes next.** During a block's Delay (and during Delay blocks), the wire it is about to follow pulses, with dashes flowing towards the next block.
+- **Macros no longer drag what you're holding.** If you're holding a mouse button when a macro moves or clicks the mouse, MacroFlow lets go of it first, so nothing you were clicking on gets dragged across the screen. You can choose to have it wait until you let go instead (Settings).
+- **Your mouse goes back where it was.** After a macro clicks or moves somewhere, the cursor returns to where you had it, unless a later step still needs it there (e.g. a click at the current position). This can be turned off in Settings.
 
 ### MacroFlow 1.0.5
 
