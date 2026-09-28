@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.4](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.5](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-28.
 
@@ -16,11 +16,23 @@ The newest version, 109 MB zip, released 2026-09-28.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.4** (latest)](#macroflow-104) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.4/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.5** (latest)](#macroflow-105) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.5/MacroFlow-windows.zip) (109 MB) |
+| [1.0.4](#macroflow-104) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.4/MacroFlow-windows.zip) (109 MB) |
 | [1.0.3](#macroflow-103) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.3/MacroFlow-windows.zip) (109 MB) |
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.5
+
+Released 2026-09-28 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.5/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.5)
+
+- **Search inside an application.** Find Image has a new *Search in: Application window* option. Choose the app from a list of open windows and MacroFlow searches only inside that window, wherever it is on screen.
+- **Click inside an application.** Mouse Click and Mouse Move can use a *Position in application window*, measured from the window's top-left corner, so the click still lands in the right place when the window moves. Pick the spot on screen and MacroFlow measures it for you.
+- **New Apps blocks:**
+  - *Open Application* starts a program, file or website and waits for its window.
+  - *Focus Window* brings a window to the front, so key presses and typing go to it.
+  - *Close Application* closes a window like clicking its X, or ends the program.
 
 ### MacroFlow 1.0.4
 
