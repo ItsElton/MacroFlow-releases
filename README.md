@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.2](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.3](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-28.
 
@@ -16,9 +16,21 @@ The newest version, 109 MB zip, released 2026-09-28.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.2** (latest)](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.3** (latest)](#macroflow-103) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.3/MacroFlow-windows.zip) (109 MB) |
+| [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.3
+
+Released 2026-09-28 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.3/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.3)
+
+- **Delay after each block.** Mouse, keyboard, Find Image, Pixel Color, Recording, Run Macro, Set Variable and Log Message blocks have a new *Delay* setting: how long to wait before the next block starts. New blocks use 100 ms. Blocks in projects saved before this update keep 0, so your existing macros run as before.
+- **Find Image no longer finds pictures inside MacroFlow.** While a macro runs, MacroFlow's own windows are hidden from screen searches, so the picture shown on a Find Image block can't be matched by mistake.
+- **Recording** (was *Play Recording*) is now under *Flow*.
+- **Delay** is the new name of the *Wait* block.
+- **Mouse Click** actions are now *Click*, *Double-click*, *Mouse Click Down* and *Mouse Click Up*.
+- **Key Press** actions are now *Keystroke (Press and Release)*, *Key Down* and *Key Up*.
 
 ### MacroFlow 1.0.2
 
