@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.3](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.4](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-28.
 
@@ -16,10 +16,18 @@ The newest version, 109 MB zip, released 2026-09-28.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.3** (latest)](#macroflow-103) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.3/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.4** (latest)](#macroflow-104) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.4/MacroFlow-windows.zip) (109 MB) |
+| [1.0.3](#macroflow-103) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.3/MacroFlow-windows.zip) (109 MB) |
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.4
+
+Released 2026-09-28 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.4/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.4)
+
+- **Edit recordings.** The Recording block has a new *Edit recording…* button. It lists every recorded step, where you can change pauses, keys, mouse buttons, positions and scrolling, delete steps, add clicks, key presses, scrolls or mouse moves, and remove all mouse movement at once. Nothing changes until you click Save, and Undo works afterwards.
+- **Scroll bars fixed** in the update window's change list and in the Quick guide.
 
 ### MacroFlow 1.0.3
 
