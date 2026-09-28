@@ -24,13 +24,13 @@ The newest version, 109 MB zip, released 2026-09-28.
 
 Released 2026-09-28 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.2)
 
-- Update popup shows only what changed (#9)
+- Update popup shows only what changed
 
 ### MacroFlow 1.0.1
 
 Released 2026-09-28 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.1)
 
-- Show a preview of the editor on the download page (#8)
+- Show a preview of the editor on the download page
 
 ### MacroFlow 1.0.0
 
