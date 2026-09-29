@@ -4,9 +4,9 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.6](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.7](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
-The newest version, 109 MB zip, released 2026-09-28.
+The newest version, 109 MB zip, released 2026-09-29.
 
 **Install:** unzip it into a folder of your own (not *Program Files*) and run `MacroFlow/MacroFlow.exe`. There is no installer and nothing else to download. Windows 10 or 11. If Windows shows *"Windows protected your PC"*, click **More info → Run anyway** (the app isn't code-signed).
 
@@ -16,13 +16,23 @@ The newest version, 109 MB zip, released 2026-09-28.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.6** (latest)](#macroflow-106) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.6/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.7** (latest)](#macroflow-107) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.7/MacroFlow-windows.zip) (109 MB) |
+| [1.0.6](#macroflow-106) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.6/MacroFlow-windows.zip) (109 MB) |
 | [1.0.5](#macroflow-105) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.5/MacroFlow-windows.zip) (109 MB) |
 | [1.0.4](#macroflow-104) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.4/MacroFlow-windows.zip) (109 MB) |
 | [1.0.3](#macroflow-103) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.3/MacroFlow-windows.zip) (109 MB) |
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.7
+
+Released 2026-09-29 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.7/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.7)
+
+- **Find Image clicks land.** When *Move to it and click* found the picture but the click did nothing, it's fixed. The mouse now arrives the way a real mouse does, MacroFlow waits a moment before pressing, and it holds the button down for 20 ms. The new **Hold** setting on Find Image changes that time.
+- **Clicks go through MacroFlow's own window.** Image search sees through MacroFlow while a macro runs, so a picture could be found behind MacroFlow's window, and the click then hit MacroFlow instead of your app. Now MacroFlow moves its window behind other windows before clicking there. Mouse Click blocks do the same.
+- **Searching in an application re-checks the front.** If another window took the focus while Find Image was searching in an application, that application is brought back to the front before the click.
+- **Clicked … in the Run Log.** Find Image now logs where it clicked. If the app you're clicking runs as administrator, which makes Windows block MacroFlow's clicks, the Run Log tells you to start MacroFlow as administrator too.
 
 ### MacroFlow 1.0.6
 
