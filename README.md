@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.11](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.12](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-29.
 
@@ -16,7 +16,8 @@ The newest version, 109 MB zip, released 2026-09-29.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.11** (latest)](#macroflow-1011) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.11/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.12** (latest)](#macroflow-1012) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.12/MacroFlow-windows.zip) (109 MB) |
+| [1.0.11](#macroflow-1011) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.11/MacroFlow-windows.zip) (109 MB) |
 | [1.0.10](#macroflow-1010) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.10/MacroFlow-windows.zip) (109 MB) |
 | [1.0.9](#macroflow-109) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.9/MacroFlow-windows.zip) (109 MB) |
 | [1.0.8](#macroflow-108) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.8/MacroFlow-windows.zip) (109 MB) |
@@ -28,6 +29,18 @@ The newest version, 109 MB zip, released 2026-09-29.
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.12
+
+Released 2026-09-29 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.12/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.12)
+
+- **Comment boxes.** Add coloured, titled boxes to group blocks and say what each part of a macro does. Press **C**, or pick *Comment Box* under *Layout* in the Nodes panel or the right-click list. With blocks selected, the box goes around them. Drag the title to move the box together with the blocks on it, and drag the corner to resize it. Double-click the title to rename it, and right-click it to change its colour or delete it. Deleting a box keeps the blocks.
+- **The running block stays in view.** While a macro runs, the canvas pans smoothly to keep the running block on screen. Turn this off with *View → Follow the running block*.
+- **Scroll while dragging.** Dragging a wire, a block or a selection to the edge of the canvas scrolls it, so you can connect to a block that's off screen.
+- **Wires to lower blocks go under.** A wire going back to an earlier block runs through the gap between the rows when there is one. Otherwise it goes under when that block is lower, and over when it is higher or on the same row. Wires that share a route no longer run on top of each other.
+- **Record MacroFlow with OBS.** By default, while a macro runs, MacroFlow hides itself from screen capture, so image search can't find pictures inside MacroFlow. Screen recorders then show it frozen until the macro stops. New in **Settings → While a macro runs**: *Keep MacroFlow visible to recorders*. Recorders then see MacroFlow as usual, and image search blanks out MacroFlow's windows instead.
+- **Notifications when a macro ends.** New in a macro's settings (click empty canvas): *When it ends → Send a Windows notification*. When a run ends you get a notification with the macro's name, e.g. *Macro run completed: 'My Macro' finished after 12.4 s*. It says *Macro stopped* or *Macro failed* when the run didn't finish on its own. It's off by default, and clicking the notification brings MacroFlow to the front.
+- **Windows only.** MacroFlow is now a Windows-only program (Windows 10 and 11). The unused macOS/Linux code is gone, and all testing runs on Windows.
 
 ### MacroFlow 1.0.11
 
