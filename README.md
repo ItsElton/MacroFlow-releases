@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.7](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.8](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-29.
 
@@ -16,7 +16,8 @@ The newest version, 109 MB zip, released 2026-09-29.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.7** (latest)](#macroflow-107) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.7/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.8** (latest)](#macroflow-108) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.8/MacroFlow-windows.zip) (109 MB) |
+| [1.0.7](#macroflow-107) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.7/MacroFlow-windows.zip) (109 MB) |
 | [1.0.6](#macroflow-106) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.6/MacroFlow-windows.zip) (109 MB) |
 | [1.0.5](#macroflow-105) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.5/MacroFlow-windows.zip) (109 MB) |
 | [1.0.4](#macroflow-104) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.4/MacroFlow-windows.zip) (109 MB) |
@@ -24,6 +25,12 @@ The newest version, 109 MB zip, released 2026-09-29.
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.8
+
+Released 2026-09-29 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.8/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.8)
+
+- **Clicks no longer get lost when your mouse goes back.** With *Put my mouse back* on, the cursor jumped back to where you had it at the very moment the macro let go of the button. Many apps and games check the mouse once per frame, so they saw the button come up somewhere else, and that cancels the click. Now the cursor stays put for a moment after a click, and the block's Delay counts towards it, before it goes back.
 
 ### MacroFlow 1.0.7
 
