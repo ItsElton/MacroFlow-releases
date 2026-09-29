@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.12](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.13](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-29.
 
@@ -16,7 +16,8 @@ The newest version, 109 MB zip, released 2026-09-29.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.12** (latest)](#macroflow-1012) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.12/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.13** (latest)](#macroflow-1013) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.13/MacroFlow-windows.zip) (109 MB) |
+| [1.0.12](#macroflow-1012) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.12/MacroFlow-windows.zip) (109 MB) |
 | [1.0.11](#macroflow-1011) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.11/MacroFlow-windows.zip) (109 MB) |
 | [1.0.10](#macroflow-1010) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.10/MacroFlow-windows.zip) (109 MB) |
 | [1.0.9](#macroflow-109) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.9/MacroFlow-windows.zip) (109 MB) |
@@ -29,6 +30,13 @@ The newest version, 109 MB zip, released 2026-09-29.
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.13
+
+Released 2026-09-29 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.13/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.13)
+
+- **Easier comment boxes.** Select several blocks by dragging a box around them, then right-click and choose **Add comment box around … blocks**. To place one yourself, pick *Comment Box* (under *Layout* in the Nodes panel or the right-click list), or press **C** with nothing selected, and drag on the canvas to draw it. Esc cancels. Boxes no longer appear at a fixed size the moment you choose them.
+- **The OBS option is gone.** *Settings → While a macro runs* has been removed. While a macro runs, MacroFlow hides itself from screen capture as before, so image search can't find pictures shown in MacroFlow.
 
 ### MacroFlow 1.0.12
 
