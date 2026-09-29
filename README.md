@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.10](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.11](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-29.
 
@@ -16,7 +16,8 @@ The newest version, 109 MB zip, released 2026-09-29.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.10** (latest)](#macroflow-1010) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.10/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.11** (latest)](#macroflow-1011) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.11/MacroFlow-windows.zip) (109 MB) |
+| [1.0.10](#macroflow-1010) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.10/MacroFlow-windows.zip) (109 MB) |
 | [1.0.9](#macroflow-109) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.9/MacroFlow-windows.zip) (109 MB) |
 | [1.0.8](#macroflow-108) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.8/MacroFlow-windows.zip) (109 MB) |
 | [1.0.7](#macroflow-107) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.7/MacroFlow-windows.zip) (109 MB) |
@@ -27,6 +28,14 @@ The newest version, 109 MB zip, released 2026-09-29.
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.11
+
+Released 2026-09-29 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.11/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.11)
+
+- **Run Log times in milliseconds.** Each line shows when it happened to the millisecond (e.g. `22:52:45.318`), stamped at the moment it happened in the macro.
+- **Delays in the Run Log.** When a block's Delay starts (50 ms or longer), the Run Log says so, e.g. *Delay 500 ms* right after *Clicked left at …*. That lets you check each block's timing: find, click, Delay, then the next block.
+- **Wait after finding.** Find Image has a new **Wait after finding** setting, for *Move to it* and *Move to it and click*. It pauses between finding the image and clicking it, for a button that is still sliding or fading in. After the pause MacroFlow looks once more, so the click lands where the button is now. A block's **Delay** still comes after its click, before the next block starts, and its tooltip now says so.
 
 ### MacroFlow 1.0.10
 
