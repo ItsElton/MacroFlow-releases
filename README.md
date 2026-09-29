@@ -4,7 +4,7 @@ MacroFlow automates your mouse and keyboard. You build a macro by dragging block
 
 ![The MacroFlow editor](screenshot.png)
 
-## [⬇ Download MacroFlow 1.0.9](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
+## [⬇ Download MacroFlow 1.0.10](https://github.com/ItsElton/MacroFlow-releases/releases/latest/download/MacroFlow-windows.zip)
 
 The newest version, 109 MB zip, released 2026-09-29.
 
@@ -16,7 +16,8 @@ The newest version, 109 MB zip, released 2026-09-29.
 
 | Version | Released | Download |
 |---|---|---|
-| [**1.0.9** (latest)](#macroflow-109) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.9/MacroFlow-windows.zip) (109 MB) |
+| [**1.0.10** (latest)](#macroflow-1010) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.10/MacroFlow-windows.zip) (109 MB) |
+| [1.0.9](#macroflow-109) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.9/MacroFlow-windows.zip) (109 MB) |
 | [1.0.8](#macroflow-108) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.8/MacroFlow-windows.zip) (109 MB) |
 | [1.0.7](#macroflow-107) | 2026-09-29 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.7/MacroFlow-windows.zip) (109 MB) |
 | [1.0.6](#macroflow-106) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.6/MacroFlow-windows.zip) (109 MB) |
@@ -26,6 +27,14 @@ The newest version, 109 MB zip, released 2026-09-29.
 | [1.0.2](#macroflow-102) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.2/MacroFlow-windows.zip) (109 MB) |
 | [1.0.1](#macroflow-101) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.1/MacroFlow-windows.zip) (109 MB) |
 | [1.0.0](#macroflow-100) | 2026-09-28 | [MacroFlow-windows.zip](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.0/MacroFlow-windows.zip) (109 MB) |
+
+### MacroFlow 1.0.10
+
+Released 2026-09-29 · [⬇ Download](https://github.com/ItsElton/MacroFlow-releases/releases/download/v1.0.10/MacroFlow-windows.zip) (109 MB) · [Release page](https://github.com/ItsElton/MacroFlow-releases/releases/tag/v1.0.10)
+
+- **Run from here.** Right-click a block and choose **Run from here** to start the macro at that block instead of at Start, which is handy for testing one part. If the macro repeats, later passes start from Start as usual.
+- **Disable blocks.** Right-click a block and choose **Disable block** to make the run skip it without deleting it. A disabled block is faded out and marked *Disabled*, and the run continues through its first output (*Found* for Find Image). For a Loop it continues from *Completed*, so the loop is skipped. Choose **Enable block** to turn it back on. It works on several selected blocks at once, and you can undo it.
+- **Wires go around blocks.** A wire that would cut through a block now goes over or under it, whichever is shorter. This includes a wire going back to the start of a loop. Wires that share a route run side by side.
 
 ### MacroFlow 1.0.9
 
